@@ -13,9 +13,11 @@ const container = document.getElementById("root");
 const root = createRoot(container)
 root.render(<>
   <Sayac />
-  <RuhHalleri />
-  <Dondurucu />
   <Input />
+  <RuhHalleri />
+   
+  <Dondurucu />
+  
   <Kareler />
-  <Programcilar />
+  <Programcilar />  
 </>);
